@@ -10,3 +10,7 @@ in new tab:
 for exec example in container:
 - cd /usr/src/sklearn/naive_bayes
 - python nb_author_id.py
+
+it's necessary to run setup (It will first check for the python modules, then download and unzip a large dataset that we will use heavily later):
+- cd /usr/src/sklearn/tools
+- python startup.py
