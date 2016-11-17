@@ -6,7 +6,6 @@ RUN pip install scipy
 RUN pip install -U scikit-learn
 RUN pip install nltk
 
-#COPY ./ /usr/src/
 WORKDIR /usr/src/
 RUN git clone https://github.com/udacity/ud120-projects.git /usr/src/sklearn
 
